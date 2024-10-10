@@ -1,9 +1,9 @@
 import RPi.GPIO as GPIO
 import time
 
-# GPIO 핀 번호 설정
-SERVO_PIN_1 = 12  # 첫 번째 서보 모터 핀
-SERVO_PIN_2 = 13  # 두 번째 서보 모터 핀
+# GPIO 핀 번호 설정 (라즈베리 파이의 핀 번호에 맞게)
+SERVO_PIN_1 = 18  # 첫 번째 서보 모터 핀 (라즈베리 파이의 GPIO 18 -> 12번 핀)
+SERVO_PIN_2 = 27  # 두 번째 서보 모터 핀 (라즈베리 파이의 GPIO 27 -> 13번 핀)
 
 # GPIO 설정
 GPIO.setmode(GPIO.BCM)
